@@ -10,13 +10,13 @@ const pool = new Pool({
 
 
 //probamos la conexion
-const probarConexion = async () => {
+// const probarConexion = async () => {
   
-    const resultado = await pool.query("SELECT NOW()");
-  console.log(resultado.rows);
-};
+//     const resultado = await pool.query("SELECT NOW()");
+//   console.log(resultado.rows);
+// };
 
-probarConexion();
+// probarConexion();
 
 //funcion para consultar los POST
 const obtenerPosts = async () => {
